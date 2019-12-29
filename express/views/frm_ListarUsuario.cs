@@ -32,6 +32,7 @@ namespace express.views
 
             IMongoDatabase bancodedados = clint.GetDatabase("sistemapro");
             usuario = bancodedados.GetCollection<modelo_Usuario>("Usuarios");
+
             var usuarios = usuario.AsQueryable<modelo_Usuario>().ToList();
             dataGridView.DataSource = usuarios;
 
@@ -96,7 +97,6 @@ namespace express.views
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ListarUsuariosEmail_senha(txtSenha.Text, txtPesquisa.Text);
         }
         public static string nome;
         private void dataGridView_MouseDoubleClick(object sender, MouseEventArgs e)

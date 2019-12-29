@@ -31,14 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_main));
             this.painel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btn_menuLogOut = new System.Windows.Forms.Button();
             this.btn_menuTes = new System.Windows.Forms.Button();
             this.btn_menuAPedag = new System.Windows.Forms.Button();
             this.btn_menuPrincipal = new System.Windows.Forms.Button();
             this.pb_Logo = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_professor = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Logo)).BeginInit();
             this.SuspendLayout();
@@ -58,6 +59,7 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.Controls.Add(this.btn_professor);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
@@ -70,6 +72,30 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(189, 537);
             this.panel1.TabIndex = 2;
+            // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(3, 344);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(183, 36);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "Visual\r\n";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(3, 302);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(183, 36);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Adicionar Usuario";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -99,9 +125,9 @@
             // 
             this.btn_menuTes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_menuTes.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_menuTes.Location = new System.Drawing.Point(0, 260);
+            this.btn_menuTes.Location = new System.Drawing.Point(3, 260);
             this.btn_menuTes.Name = "btn_menuTes";
-            this.btn_menuTes.Size = new System.Drawing.Size(186, 36);
+            this.btn_menuTes.Size = new System.Drawing.Size(184, 36);
             this.btn_menuTes.TabIndex = 3;
             this.btn_menuTes.Text = "Tesouraria";
             this.btn_menuTes.UseVisualStyleBackColor = true;
@@ -110,9 +136,9 @@
             // 
             this.btn_menuAPedag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_menuAPedag.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_menuAPedag.Location = new System.Drawing.Point(0, 218);
+            this.btn_menuAPedag.Location = new System.Drawing.Point(3, 218);
             this.btn_menuAPedag.Name = "btn_menuAPedag";
-            this.btn_menuAPedag.Size = new System.Drawing.Size(186, 36);
+            this.btn_menuAPedag.Size = new System.Drawing.Size(183, 36);
             this.btn_menuAPedag.TabIndex = 2;
             this.btn_menuAPedag.Text = "Área Pedagógica";
             this.btn_menuAPedag.UseVisualStyleBackColor = true;
@@ -138,29 +164,17 @@
             this.pb_Logo.TabIndex = 0;
             this.pb_Logo.TabStop = false;
             // 
-            // button2
+            // btn_professor
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(3, 302);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 36);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Adicionar Usuario";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(3, 344);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(183, 36);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Visual\r\n";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_professor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_professor.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_professor.Location = new System.Drawing.Point(3, 386);
+            this.btn_professor.Name = "btn_professor";
+            this.btn_professor.Size = new System.Drawing.Size(183, 36);
+            this.btn_professor.TabIndex = 8;
+            this.btn_professor.Text = "Professor";
+            this.btn_professor.UseVisualStyleBackColor = true;
+            this.btn_professor.Click += new System.EventHandler(this.btn_professor_Click);
             // 
             // frm_main
             // 
@@ -189,5 +203,6 @@
         private System.Windows.Forms.PictureBox pb_Logo;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_professor;
     }
 }

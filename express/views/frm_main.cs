@@ -30,5 +30,12 @@ namespace express.views
             listar.Show();
             this.Hide();
         }
+
+        private void btn_professor_Click(object sender, EventArgs e)
+        {
+            frm_addProfessor prof = new frm_addProfessor();
+            prof.Show();
+            this.Hide();
+        }
     }
 }

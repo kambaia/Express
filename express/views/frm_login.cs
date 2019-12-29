@@ -33,6 +33,9 @@ namespace express.views
             var filtro = (builder.Eq(p => p.Email, txtEmail.Text) & builder.Eq(a => a.Senha, txtSenha.Text));
             var clientes = usuario.Find<modelo_Usuario>(filtro).ToList();
 
+            
+
+            
             if (clientes.Count > 0)
             {
                 clientes.ForEach(a =>
@@ -55,9 +58,7 @@ namespace express.views
             {
                 MessageBox.Show("OPS! Você não está Cadastrado");
             }
-            /*
-          
-            */
+            
         }
 
         public void ListarUsuariosEmail_senha(string email, string senha)

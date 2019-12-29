@@ -36,6 +36,8 @@ namespace express.Modelo
             set { this.codigo = value; }
 
         }
+
+
         [BsonElement("nome")]
         public string Nome
         {
@@ -43,6 +45,8 @@ namespace express.Modelo
 
             set { this.nome = value; }
         }
+
+
         [BsonElement("email")]
         public string Email
         {
@@ -50,6 +54,8 @@ namespace express.Modelo
 
             set { this.email = value; }
         }
+
+
         [BsonElement("senha")]
         public string Senha
         {
@@ -57,6 +63,8 @@ namespace express.Modelo
 
             set { this.senha = value; }
         }
+
+
         [BsonElement("Tipo")]
         public int Tipo
         {
@@ -65,6 +73,7 @@ namespace express.Modelo
             set { this.tipo = value; }
         }
 
+
         [BsonElement("foto")]
         public string Foto
         {
@@ -72,6 +81,7 @@ namespace express.Modelo
 
             set { this.foto = value; }
         }
+
 
         [BsonElement("data")]
         public DateTime Data

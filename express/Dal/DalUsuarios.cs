@@ -35,6 +35,7 @@ namespace express.Dal
              
                 modelo_Usuario User = new modelo_Usuario
                 {
+                 
                     Codigo = user.Codigo,
                     Nome = user.Nome,
                     Email = user.Email,
@@ -56,6 +57,7 @@ namespace express.Dal
            
             
         }
+
         public void ListarUsuarios()
         {
             var usuarios = usuario.AsQueryable<modelo_Usuario>().ToList();
