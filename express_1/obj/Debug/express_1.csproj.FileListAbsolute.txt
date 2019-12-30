@@ -1,0 +1,17 @@
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\express_1.exe.config
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\express_1.exe
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\express_1.pdb
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\MongoDB.Bson.dll
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\MongoDB.Driver.dll
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\MongoDB.Bson.xml
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\MongoDB.Driver.xml
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\obj\Debug\express_1.csprojResolveAssemblyReference.cache
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\obj\Debug\express_1.Form1.resources
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\obj\Debug\express_1.Properties.Resources.resources
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\obj\Debug\express_1.views.frm_AddUsuarios.resources
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\obj\Debug\express_1.csproj.GenerateResource.Cache
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\obj\Debug\express_1.exe
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\obj\Debug\express_1.pdb
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\obj\Debug\express_1.views.frm_AddProfessor.resources
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\MongoDB.Bson.pdb
+c:\users\ka.pco\documents\visual studio 2015\Projects\express_1\express_1\bin\Debug\MongoDB.Driver.pdb
